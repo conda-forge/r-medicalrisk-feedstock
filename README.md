@@ -14,9 +14,8 @@ Summary: Generates risk estimates and comorbidity flags from ICD-9-CM codes avai
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-medicalrisk-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-medicalrisk-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-medicalrisk-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-medicalrisk-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-medicalrisk-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-medicalrisk-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-medicalrisk-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-medicalrisk-feedstock)
 
 Current release info
 ====================
