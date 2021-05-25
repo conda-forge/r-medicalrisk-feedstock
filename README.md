@@ -3,13 +3,11 @@ About r-medicalrisk
 
 Home: https://github.com/patrickmdnet/medicalrisk
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-medicalrisk-feedstock/blob/master/LICENSE.txt)
 
 Summary: Generates risk estimates and comorbidity flags from ICD-9-CM codes available in administrative medical datasets. The package supports the Charlson Comorbidity Index, the Elixhauser Comorbidity classification, the Revised Cardiac Risk Index, and the Risk Stratification Index.  Methods are table-based, fast, and use the 'plyr' package, so parallelization is possible for large jobs. Also includes a sample of real ICD-9 data for 100 patients from a publicly available dataset.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-medicalrisk` from the `conda-forge` channel can be achieved by add
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-medicalrisk` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers

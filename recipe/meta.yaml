@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/patrickmdnet/medicalrisk
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Generates risk estimates and comorbidity flags from ICD-9-CM codes available in administrative
     medical datasets. The package supports the Charlson Comorbidity Index, the Elixhauser
     Comorbidity classification, the Revised Cardiac Risk Index, and the Risk Stratification
