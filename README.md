@@ -1,11 +1,11 @@
-About r-medicalrisk
-===================
+About r-medicalrisk-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-medicalrisk-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/patrickmdnet/medicalrisk
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-medicalrisk-feedstock/blob/main/LICENSE.txt)
 
 Summary: Generates risk estimates and comorbidity flags from ICD-9-CM codes available in administrative medical datasets. The package supports the Charlson Comorbidity Index, the Elixhauser Comorbidity classification, the Revised Cardiac Risk Index, and the Risk Stratification Index.  Methods are table-based, fast, and use the 'plyr' package, so parallelization is possible for large jobs. Also includes a sample of real ICD-9 data for 100 patients from a publicly available dataset.
 
